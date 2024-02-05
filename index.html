@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="main">
+        <section class="box">
+            <input type="text" placeholder="enter city" id="cityname" class="city">
+            <i onclick="citydetails()" class="fa-solid fa-magnifying-glass"></i>
+
+            <ul id="listCiti">
+
+            </ul>
+            <p id="weather-location"></p>
+            <p id="temper"></p>
+            <i class="fa-solid fa-cloud"></i>
+            <span id="clouds"></span>
+
+            <p id="humid"></p>
+            <p id="windspeed"></p>
+
+        </section>
+    </main>
+
+
+    <script src="/index.js"></script>
+</body>
+
+
+</html>
