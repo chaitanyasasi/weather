@@ -1,5 +1,5 @@
 .main {
-    background-image: linear-gradient(transparent, rgb(24, 4, 4)), url(/img/the-tokyo-street-taxi-4k-g9.jpg);
+    background-image: linear-gradient(transparent, rgb(24, 4, 4)), url(./the-tokyo-street-taxi-4k-g9.jpg);
     width: 100%;
     height: 700px;
     background-size: cover;
